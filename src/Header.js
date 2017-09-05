@@ -1,12 +1,14 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { AppBar } from 'material/lib/app-bar'
+import AppBar from 'material-ui/AppBar'
 
 // The Header creates links that can be used to navigate
 // between routes.
 const Header = () => (
-  <AppBar title="Title"
-  />
+  <header>
+  <AppBar title="Title" />
+  </header>
+  
   // <header>
   //   <nav>
   //     <ul>
