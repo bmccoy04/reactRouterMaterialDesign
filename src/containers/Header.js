@@ -31,7 +31,9 @@ export default class Header extends React.Component {
           open={this.state.open}
           onRequestChange={(open) => this.setState({ open })}
         >
-        <AppBar />
+        <AppBar 
+          iconElementLeft={<span></span>}
+        />
           <MenuItem onClick={this.handleClose} containerElement={<Link to="/" />} >Home</MenuItem>
           <MenuItem onClick={this.handleClose} containerElement={<Link to="/second" />} >Second</MenuItem>
         </Drawer>
