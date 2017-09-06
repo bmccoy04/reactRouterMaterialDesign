@@ -27,7 +27,6 @@ export default class Header extends React.Component {
         />
         <Drawer
           docked={false}
-          width={200}
           open={this.state.open}
           onRequestChange={(open) => this.setState({ open })}
         >
@@ -39,14 +38,5 @@ export default class Header extends React.Component {
         </Drawer>
       </header>
     )
-
-    // <header>
-    //   <nav>
-    //     <ul>
-    //       <li><Link to='/'>Home</Link></li>
-    //       <li><Link to='/second'>Second</Link></li>
-    //     </ul>
-    //   </nav>
-    // </header>
   }
 }
