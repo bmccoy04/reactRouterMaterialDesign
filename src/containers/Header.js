@@ -38,6 +38,8 @@ export default class Header extends React.Component {
         />
           <MenuItem onClick={this.handleClose} containerElement={<Link to="/" />} >Home</MenuItem>
           <MenuItem onClick={this.handleClose} containerElement={<Link to="/second" />} >Second</MenuItem>
+
+          <MenuItem onClick={this.handleClose} containerElement={<Link to="/hideme" />} >HideMe</MenuItem>
         </Drawer>
       </header>
     )
